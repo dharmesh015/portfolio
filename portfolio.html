@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/0b741d1b94.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="container ">
+            <nav>
+                <div>
+                    <p style="font-size: 70px;"> <span style="color: cornflowerblue;">P</span>ortfolio</p>
+                </div>
+                <ul id="nav-ul">
+                    <li> <i class="fas fa-times " onclick="closemenu()"></i></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="photo1" style="display: flex; gap: 20%;">
+                <div class="header-text ">
+                    <div id="developerName"></div>
+                    <h1>hi, I'm <span>Dharmesh</span><br> from Ahmedabad</h1>
+                </div>
+                <div>
+                    <img class="img1" src="photo1.jpg">
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <div id="about">
+        <div class="container abouti">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo2.jpg" class="img2">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-h1 sub-title">About me</h1>
+                    <p>Hi, I'm Dharmesh, a student studying Computer Engineering.  I always work hard and try my best to learn new things. I think working
+                        together is important, and I'm excited to share my ideas and skills on projects that push
+                        the limits of what's possible with technology. Let's connect and see what amazing things we
+                        can create</p>
+                    <div class="tab-titles">
+                        <p2 class="tab-links active-link" onclick="opentab('skill')">Skill</p2>
+                        <p2 class="tab-links" onclick="opentab('Hobbies')">Hobbies</p2>
+                        <p2 class="tab-links" onclick="opentab('Education')">Education</p2>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <ul>
+                                <li><span>web devlopment</span><br>Proficient in creating responsive and visually
+                                    appealing websites using HTML, CSS, and JavaScript</li>
+                                <li><span>Logical Thinking</span><br>Being able to think logically and carefully
+                                    helps
+                                    to solve problems and create systems that work well</li>
+                                <li><span>Programming Basics:</span> <br>Understanding fundamental concepts in
+                                     C,oop,os,dbms.</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <ul>
+                                <li><span>listening to music</span><br>Music comforts, makes us glad,
+                                    Stress departs.</li>
+                                <li><span>Learning</span><br>Acquiring understanding, knowledge, behaviors, skills.</li>
+                               
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>SSC-Shree swami narayan gurukul school</li>
+                            <li><span>2021</span><br>HSC-Shree swami narayan gurukul school</li>
+                            <li><span>2025</span><br>COLLEGE-L.D.College of Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY Services</h1>
+            <div class="services-list">
+                <div style="padding: 15px;">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web devlopment</h2>
+                    <p>Skilled in web development with expertise in HTML, CSS, JavaScript, and frameworks like React
+                        proficient in creating responsive web applications." </p>
+                    <a href="#">read more</a>
+
+                </div>
+                <div style="padding: 15px;">
+
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>java</h2>
+                    <p>Java programming with a strong foundation in object-oriented principles </p>
+                    <a href="#">read more</a>
+
+                </div>
+                <div style="padding: 15px;">
+                    <i class="fa-regular fa-crop"></i>
+                    <h2>ui</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere necessitatibus eum veritatis
+                        facilis? </p>
+                    <a href="#">read more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="workk">
+        <div class="container">
+            <h1 class=" workk-h1 sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="tic-tak.png" alt="">
+                    <div class="layer">
+                        <h3>tic tac toe</h3><br>
+                        <p>Crafted a responsive Tic Tac Toe game using JavaScript, HTML, and CSS, showcasing adeptness
+                            in web development.
+                        </p><br>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="weather.png" alt="">
+                    <div class="layer">
+                        <h3>weather-web</h3><br>
+                        <p>Created a sleek weather app using JavaScript, HTML, CSS, and Fetch API, providing real-time
+                            weather updates with an intuitive user interface
+                        </p><br>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="e-commec.png" alt="">
+                    <div class="layer">
+                        <h3>e commerce website</h3><br>
+                        <p>Implemented dynamic features such as product listings, shopping cart functionality showcasing
+                            proficiency in front-end web development
+                        </p><br>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact about">
+        <div class="container" id="contact">
+            <div class="row" style="justify-content:space-around; ">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> dharmeshgelatar15@gmail.com </p>
+                    <p><i class="fa-solid fa-phone"></i> 7069065067 </p>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.telegtam.com"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" placeholder="your name" required>
+                        <input type="text" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontetnts = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontetnt of tabcontetnts) {
+                tabcontetnt.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var navul = document.getElementById("nav-ul");
+        function openmenu() {
+            navul.style.right = "0";
+
+        }
+        function closemenu() {
+            navul.style.right = "-200px";
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            function typeOutName(name) {
+                var index = 0;
+                var element = document.getElementById('developerName');
+                var container = document.getElementById('container');
+                var interval = setInterval(function () {
+                    if (index < name.length) {
+                        element.textContent += name[index];
+                        index++;
+                    } else {
+                        clearInterval(interval);
+                        setTimeout(function () {
+                            element.textContent = '';
+                            typeOutName(name);
+                            container.classList.add('move-up');
+                            setTimeout(function () {
+                                container.classList.remove('move-up');
+                            }, 500);
+                        }, 1000);
+                    }
+                }, 300);
+            }
+
+            typeOutName("Web Developer");
+        });
+
+
+    </script>
+
+</body>
+
+</html>
